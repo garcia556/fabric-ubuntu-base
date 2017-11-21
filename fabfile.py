@@ -119,7 +119,7 @@ def bootstrap(root_password, password):
     run("service sshd restart")
 
     # Install other software
-    run("apt -y install tmux htop bash-completion subversion pigz psmisc ncdu bmon bonnie++ dos2unix hdparm iftop iptraf iotop iputils-tracepath man zip unzip lshw lsof mdadm manpages ntpdate p7zip realpath slurm smartmontools traceroute linux-tools-generic sysstat git")
+    run("apt -y install tmux htop bash-completion subversion pigz psmisc ncdu bmon bonnie++ dos2unix hdparm iftop iptraf iotop iputils-tracepath man zip unzip lshw lsof mdadm manpages ntpdate p7zip realpath slurm smartmontools traceroute linux-tools-generic sysstat git build-essential")
 
     # Install Docker
     run("apt -y install apt-transport-https ca-certificates curl software-properties-common")
