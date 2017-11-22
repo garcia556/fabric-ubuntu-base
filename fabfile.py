@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os
 from fabric.api import *
 from fabric.operations import sudo
